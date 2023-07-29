@@ -4,6 +4,9 @@
 
 The USGS Earthquake Visualization project is a web-based application that allows users to explore earthquake data collected by the United States Geological Survey (USGS). The application visualizes earthquake locations, magnitudes, and depths on an interactive map using Leaflet.js. Additionally, it provides the option to overlay tectonic plates data to illustrate the relationship between tectonic plates and seismic activity.
 
+### If you do not wish to run this application locally, you can [visit the deployed application](https://bama-jamma.github.io/leaflet-challenge/).
+
+
 ## Getting Started
 
 To get started with the USGS Earthquake Visualization project, follow these steps:
