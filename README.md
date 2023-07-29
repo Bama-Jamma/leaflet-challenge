@@ -63,8 +63,9 @@ The USGS Earthquake Visualization project uses the following libraries:
 
 The USGS Earthquake Visualization project was developed as part of a coding challenge, using data from the USGS GeoJSON Feed and tectonic plates data from GitHub user fraxen.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Powered by
+Music: Old Drake Bangers
+Podcast: Lex Friedman Podcast
+Food: Lot's of chicken
 
 
