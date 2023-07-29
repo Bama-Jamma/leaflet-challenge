@@ -8,3 +8,54 @@ body,
 html {
   height: 100%;
 }
+
+/* CSS styles for the legend */
+.info.legend {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 5px;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+/* Update the background colors for the legend color squares */
+.info.legend i:nth-child(1) {
+  background: #00FF00; /* Depth less than -10 (green color) */
+}
+
+.info.legend i:nth-child(2) {
+  background: #ADFF2F; /* Depth from -10 to 10 (yellow-green color) */
+}
+
+.info.legend i:nth-child(3) {
+  background: #FFFF00; /* Depth from 10 to 30 (yellow color) */
+}
+
+.info.legend i:nth-child(4) {
+  background: #FFD700; /* Depth from 30 to 50 (gold color) */
+}
+
+.info.legend i:nth-child(5) {
+  background: #FFA500; /* Depth from 50 to 70 (orange color) */
+}
+
+.info.legend i:nth-child(6) {
+  background: #FF8C00; /* Depth from 70 to 90 (dark orange color) */
+}
+
+.info.legend i:nth-child(7) {
+  background: #FF0000; /* Depth greater than or equal to 90 (red color) */
+}
+
+/* Ensure labels are aligned correctly */
+.info.legend br {
+  clear: both;
+}
